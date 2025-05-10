@@ -68,6 +68,14 @@ if [[ "$LANG" == "hu_HU.UTF-8" ]]
    chgtxt="(volt) -> (lett)"
    errtxt="A <b>'IMSProg.Dat'</b> fájlt nem sikerült betölteni!"
 fi
+if [[ "$LANG" == "lv_LV.UTF-8" ]]
+   then
+   qsttxt="<b>'IMSProg.Dat'</b> datne tiks aizstāta ar jauno versiju. Jūs variet zaudēt tajā veiktās izmaiņas. Vai turpināt?"
+   tittxt="Datubāzes atjaunināšana"
+   outtxt="Mikroshēmu skaits datubāzē:"
+   chgtxt="(bija) -> (kļuva)"
+   errtxt="Nevarēja ielādēt <b>'IMSProg.Dat'</b> datni!"
+fi
 if [ -f ~/.local/share/imsprog/IMSProg.Dat ] ; then      
    zenity --question --text="$qsttxt" \
    --height=160 --width=320
