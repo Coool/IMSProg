@@ -117,7 +117,7 @@
     <message>
         <location filename="../ezp_chip_editor.ui" line="213"/>
         <source>Export to CSV</source>
-        <translation>Экспорт в SCV формат</translation>
+        <translation>Экспорт в CSV формат</translation>
     </message>
     <message>
         <location filename="../ezp_chip_editor.ui" line="225"/>
