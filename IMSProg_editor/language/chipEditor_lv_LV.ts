@@ -168,7 +168,7 @@
     <message>
         <location filename="../ezp_chip_editor.cpp" line="84"/>
         <source>Size</source>
-        <translation>Izmērs</translation>
+        <translation>Ietilpība</translation>
     </message>
     <message>
         <location filename="../ezp_chip_editor.cpp" line="85"/>
